@@ -1,0 +1,28 @@
+@media (min-width : 670px) {
+    body {
+        background-color: darkgoldenrod;
+    }
+}
+@media (max-width : 670px) {
+    body {
+        background-color: crimson;
+    }
+}
+.row div {
+    background-color: cadetblue;
+    border: 2px solid black;
+    padding: 5px;
+}
+.my_alert div:hover {
+    border: 4px ridge black;
+    font-weight: bold;
+}
+a[href="https://youtube.com"]:hover {
+    color: rgb(67, 100, 17);
+}
+a[href="https://google.com"]:hover {
+    color: rgb(184, 29, 63);
+}
+a[href="https://amazon.com"]:hover {
+    color: deepskyblue;
+}
