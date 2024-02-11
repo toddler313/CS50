@@ -7,7 +7,7 @@
     margin: 10px;
 }
 
-.success {
+.success { 
     @extend %genericMessage;
     background-color: green;
 }
